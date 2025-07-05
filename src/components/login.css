@@ -1,0 +1,85 @@
+.login-bg {
+  background: linear-gradient(to right,    #f7c0c5, #c6c6eb);
+  margin: -100px;
+  padding: 0;
+  overflow-x: hidden;
+}
+.login-card {
+  width: 400px;
+  background-color: rgb(233, 223, 223);
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #221ff1, #00c6ff);
+  color: white;
+  border: none;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
+.login {
+  width: 600px;
+  background-color: rgb(233, 223, 223);
+}
+.card{
+  width: 600px;
+   height: 20px;
+  max-width: 80%;
+}
+.navbar-dark {
+  transition: top 0.3s ease-in-out;
+  z-index: 1030; /* Asegura que esté encima */
+  color:burlywood;
+}
+.card1{
+  width: 800px;
+  color: dark;
+  background-color: rgb(204, 223, 223);
+  image-orientation: from-image;
+  font-family: monospace;
+}
+.car1{
+  background: linear-gradient(to right,rgb(224, 145, 145), rgb(210, 173, 240));
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ font-family: monospace ;
+ 
+}
+
+.logo{
+  background: linear-gradient(to right,   #f7c0c5, #c6c6eb);
+  margin: -100px;
+  padding: 0;
+  min-height: 100vh;
+}
+.logincar{
+  width: 70%;
+  background-color:   #f7c0c5, #c6c6eb;
+  font-family: monospace;
+}
+.admin-panel {
+  background: linear-gradient(to right,  #f7c0c5, #c6c6eb);
+  min-height: 100vh; /* para que siempre ocupe toda la pantalla */
+  padding-top: 100px; /* para que no se solape con el navbar */
+  padding-bottom: 50px;
+  margin: -100px;
+}
+.admin{
+  color: rgb(5, 5, 5);
+}
+.car-e{
+  width: 70%;
+  background-color:   rgb(169, 201, 201);
+  font-family: monospace;
+}
+.car-d{
+  background: rgb(203, 231, 231);
+  margin: -100px;
+  padding: 0;
+  min-height: 100vh;
+}
+.home{
+  background: #f1cfd7 ;
+}
