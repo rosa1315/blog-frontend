@@ -18,6 +18,7 @@ function Home() {
         <div className="admin text-center">
           <h1 className=" display-4">¡Bienvenidos a mi Blog!</h1>
           <p className="lead">Aquí comparto mis pensamientos, ideas y proyectos.</p>
+          <p className="lead">Los invito a leer el contenido</p>
         </div>
       <hr className="my-5" />
       <div className="row">
