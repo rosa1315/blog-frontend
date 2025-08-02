@@ -3,15 +3,15 @@ import API from '../services/api';
 import { Link } from 'react-router-dom';
 import '../components/login.css'
 import axios from 'axios'; 
+import axiosInstance from '../axiosInstance';
 
 
 function MisEntradas({ busqueda = '' }) {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/posts') 
+    axiosInstance.get("/posts") 
       .then(response => {
-      
         const publicacionesFiltradas = response.data.filter(post => post.categoria !== "Personal");
         setPosts(publicacionesFiltradas);
       });
@@ -19,7 +19,7 @@ function MisEntradas({ busqueda = '' }) {
 
   const cargarPosts = async () => {
     try {
-      const res = await API.get('/posts');
+      const res = await axiosInstance.get('/posts');
       setPosts(res.data);
     } catch (error) {
       console.error('Error al cargar publicaciones', error);

@@ -15,6 +15,7 @@ import '../src/components/login.css';
 import useHideNavbarOnScroll from './hooks/useHideNavbarOnScroll';
 import Proyectos from './pages/Proyectos';
 import axios from 'axios'; 
+import axiosInstance from './axiosInstance';
 
 function App() {
   useHideNavbarOnScroll();
@@ -27,7 +28,7 @@ function App() {
   const handleBuscar = async (e) => {
   e.preventDefault();
   try {
-    const response = await axios.get(`http://localhost:5000/api/posts/buscar?q=${busqueda}`);
+    const response = await axiosInstance.get(`https://blog-backend-0v7w.onrender.com/api/posts/buscar?q=${busqueda}`);
     setResultados(response.data);
   } catch (error) {
     console.error('Error en la búsqueda:', error);
