@@ -1,11 +1,10 @@
-import axios from "axios";
-// Detecta si estás en local o en producción
-const baseURL =
-  process.env.NODE_ENV === "development"
-    ? "http://localhost:5000/api"
-    : "https://blog-backend-0v7w.onrender.com/api"; // Reemplaza con tu URL de Render
+import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL,
+  baseURL: process.env.REACT_APP_API_URL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
+
 export default axiosInstance;
