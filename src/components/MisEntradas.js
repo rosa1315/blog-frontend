@@ -3,7 +3,6 @@ import API from '../services/api';
 import { Link } from 'react-router-dom';
 import '../components/login.css'
 import axios from 'axios'; 
-import axiosInstance from '../api';
 
 
 function MisEntradas({ busqueda = '' }) {
@@ -19,7 +18,7 @@ function MisEntradas({ busqueda = '' }) {
 
   const cargarPosts = async () => {
     try {
-      const res = await axiosInstance.get('/posts');
+      const res = await API.get('/posts');
       setPosts(res.data);
     } catch (error) {
       console.error('Error al cargar publicaciones', error);
