@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 import '../components/login.css';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import axiosInstance from '../axiosInstance';
+import axiosInstance from '../api';
 
 function Proyectos() {
   const [proyectos, setProyectos] = useState([]);
 
   useEffect(() => {
-    axiosInstance.get("posts")
+    axios.get("posts")
       .then(response => {
         const soloProyectos = response.data.filter(post => post.categoria === "Personal"); 
         setProyectos(soloProyectos);

@@ -3,14 +3,14 @@ import API from '../services/api';
 import { Link } from 'react-router-dom';
 import '../components/login.css'
 import axios from 'axios'; 
-import axiosInstance from '../axiosInstance';
+import axiosInstance from '../api';
 
 
 function MisEntradas({ busqueda = '' }) {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axiosInstance.get("/posts") 
+    axios.get("/posts") 
       .then(response => {
         const publicacionesFiltradas = response.data.filter(post => post.categoria !== "Personal");
         setPosts(publicacionesFiltradas);
