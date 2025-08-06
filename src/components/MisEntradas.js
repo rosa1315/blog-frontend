@@ -10,7 +10,7 @@ function MisEntradas({ busqueda = '' }) {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get("/posts") 
+    axios.get('/posts') 
       .then(response => {
         const publicacionesFiltradas = response.data.filter(post => post.categoria !== "Personal");
         setPosts(publicacionesFiltradas);

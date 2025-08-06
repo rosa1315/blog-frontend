@@ -28,7 +28,7 @@ function App() {
   const handleBuscar = async (e) => {
   e.preventDefault();
   try {
-    const response = await axios.get(`https://blog-backend-0v7w.onrender.com/api/posts/buscar?q=${busqueda}`);
+    const response = await axios.get('/posts/buscar?q=${busqueda}');
     setResultados(response.data);
   } catch (error) {
     console.error('Error en la búsqueda:', error);

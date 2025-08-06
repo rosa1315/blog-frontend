@@ -10,7 +10,7 @@ function Proyectos() {
   const [proyectos, setProyectos] = useState([]);
 
   useEffect(() => {
-    axios.get("posts")
+    axios.get('/posts')
       .then(response => {
         const soloProyectos = response.data.filter(post => post.categoria === "Personal"); 
         setProyectos(soloProyectos);
