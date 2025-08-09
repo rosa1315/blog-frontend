@@ -13,7 +13,7 @@ const Login = () => {
   const handlelogin = async (e) => {
     e.preventDefault();
      try {
-      const res = await API.post('/auth/login', { email, contraseña });
+      const res = await API.post(`${process.env.REACT_APP_API_URL}/auth/login`, { email, contraseña });
       
       // Asegúrate que esta línea exista y esté correcta
       localStorage.setItem('token', res.data.token);

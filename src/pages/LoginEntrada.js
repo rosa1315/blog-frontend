@@ -7,7 +7,7 @@ function LoginEntrada() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    API.get('/posts')
+    API.get('/posts') 
     .then(res => setPosts(res.data))
     .catch(err => console.error(err));
   }, []);
