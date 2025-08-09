@@ -28,7 +28,7 @@ function App() {
   const handleBuscar = async (e) => {
   e.preventDefault();
   try {
-    const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/posts/buscar?q=${busqueda}`);
+    const response = await axios.get(`${process.env.REACT_APP_API_URL}/posts/buscar?q=${busqueda}`);
     setResultados(response.data);
   } catch (error) {
     console.error('Error en la búsqueda:', error);
