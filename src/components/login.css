@@ -81,5 +81,22 @@
   min-height: 100vh;
 }
 .home{
-  background: #f1cfd7 ;
+  background: #f7c0c5 ;
+  color: black;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+  transition: transfom 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.home:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgb(0,0,0,0.2);
+
+}
+.letra{
+  font-family: monospace;
+  color: black;
 }
