@@ -12,8 +12,8 @@ function SobreMi() {
   }, []);
 
   return (
-    <div className="login-bg container-fluid d-flex justify-content-center align-items-center vh-100">
-      <div className="card1 shadow p-4">
+    <div className="logo container-fluid d-flex justify-content-center align-items-center">
+      <div className="card2 shadow ">
             <h1 className="display-4">¡Bienvenidos a mi Blog!</h1>
         <p className="lead">Aquí comparto mis pensamientos, ideas y proyectos.</p>
             <div className="card-body">

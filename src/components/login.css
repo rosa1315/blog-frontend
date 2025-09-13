@@ -38,6 +38,7 @@
   background-color: rgb(204, 223, 223);
   image-orientation: from-image;
   font-family: monospace;
+ 
 }
 .car1{
   background: linear-gradient(to right,rgb(224, 145, 145), rgb(210, 173, 240));
@@ -47,12 +48,17 @@
  font-family: monospace ;
  
 }
-
+.card2{
+  width: 85%;
+  background-color:   rgb(169, 201, 201);
+  font-family: monospace;
+}
 .logo{
   background: linear-gradient(to right,   #f7c0c5, #c6c6eb);
   margin: -100px;
   padding: 0;
   min-height: 100vh;
+  padding-top: 15%;
 }
 .logincar{
   width: 70%;

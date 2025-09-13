@@ -12,8 +12,8 @@ function Contacto() {
   }, []);
 
   return (
-    <div className="login-bg container-fluid d-flex justify-content-center align-items-center vh-100">
-      <div className="card1 shadow p-4">
+    <div className="logo container-fluid d-flex justify-content-center align-items-center">
+      <div className="card2 shadow ">
         <h1 className="display-4">¿Quieres contactarme?</h1>
         <div className="card-body">
           <h5 className="card-title">¿Te gustaría trabajar conmigo?</h5>
@@ -26,7 +26,7 @@ function Contacto() {
               <li>Colaborar en iniciativas que busquen transformar la educación a través de la tecnología.</li>
             </ul>
           
-          <p className="card-text"> Puedes escribirme directamente a: rosadiaz.tic@gmail.com</p>
+          <p className="card-text"> Puedes escribirme directamente a: blogrosa.tips@gmail.com</p>
           <p className="card-text">También puedes dejarme un mensaje en el formulario de contacto, y me comunicaré contigo a la mayor brevedad posible.</p>
           <p className="card-text">Será un gusto conocerte y explorar oportunidades para crear algo valioso juntos.</p>
 
