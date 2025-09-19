@@ -26,8 +26,8 @@ function ViewPost() {
   if (!post) return <div className="text-center mt-5">Cargando publicación...</div>;
 
   return (
-     <div className="login-bg container-fluid d-flex justify-content-center align-items-center vh-100">
-      <div className="card1 shadow p-4">
+     <div className="logo container-fluid d-flex justify-content-center align-items-center vh-100">
+      <div className="card2 shadow p-4">
         {post.imagen && (
           <img
             src={post.imagen}

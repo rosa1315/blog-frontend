@@ -13,6 +13,7 @@ function LoginEntrada() {
   }, []);
 
   return (
+    
     <div className="admin-panel container-fluid text-white">
   <div className="col-md-12 text-center mb-5">
     <h1 className="admin display-4">¡Bienvenido al panel!</h1>
@@ -52,16 +53,16 @@ function LoginEntrada() {
         </div>
       </div>
     </div>
-    <li className="nav-item">
-          <button
-  className="btn btn-danger"
-  onClick={() => {
-    localStorage.removeItem('token'); // Elimina el token
-    window.location.href = '/home'; // Redirige al login
-  }}>
-  Cerrar sesión
-</button>        
-     </li>
+    <form>
+    <button
+      className="btn btn-danger"
+      onClick={() => {
+        localStorage.removeItem('token'); 
+        window.location.href = '/home'; 
+      }}>
+      Cerrar sesión
+    </button>        
+  </form>
     
 
   </div>
