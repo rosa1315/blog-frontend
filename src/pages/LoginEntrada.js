@@ -21,8 +21,8 @@ function LoginEntrada() {
 
   <div className="row justify-content-center g-3">
     <div className="col-md-4">
-      <div className="card shadow-sm">
-        <div className="home card-body text-center">
+      <div className="shadow-sm">
+        <div className="home card-body text-center text-black">
           <h5 className="card-title">
             <a className="nav-link active" href="/admin/create">Crear publicación</a>
           </h5>
@@ -32,8 +32,8 @@ function LoginEntrada() {
     </div>
 
     <div className="col-md-4">
-      <div className="card shadow-sm">
-        <div className="home card-body text-center">
+      <div className=" shadow-sm">
+        <div className="home card-body text-center text-black">
           <h5 className="card-title">
             <a className="nav-link active" href="/admin/juntar">Editar publicación</a>
           </h5>
@@ -43,8 +43,8 @@ function LoginEntrada() {
     </div>
 
     <div className="col-md-4">
-      <div className="card shadow-sm">
-        <div className="home card-body text-center">
+      <div className="shadow-sm">
+        <div className="home card-body text-center text-black">
           <h5 className="card-title">
             <a className="nav-link active" href="/admin/publicaciones">Eliminar publicación</a>
           </h5>

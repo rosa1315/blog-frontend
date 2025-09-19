@@ -24,7 +24,7 @@ function Home() {
       <div className="row ">
         <div className="col-md-4">
           <div className="">
-            <div className="home card-body text-black">
+            <div className="home card-body text-center ">
               <h5 className="card-title" ><a className="nav-link active" aria-current="page" href="/admin" >Temas del Blog</a></h5>
               <p className="card-text" >Educación, tecnología y proyectos personales.</p>
             </div>
@@ -32,7 +32,7 @@ function Home() {
         </div>
         <div className="col-md-4">
           <div className="">
-            <div className="home card-body text-black ">
+            <div className="home card-body text-center  ">
               <h5 className="card-title" ><a className="nav-link active" aria-current="page" href="/sobremi" >Sobre Mi</a></h5>
               <p className="card-text" >Soy docente y tecnóloga en desarrollo de software. Este blog une ambas pasiones.</p>
             </div>
@@ -40,7 +40,7 @@ function Home() {
         </div>
         <div className="col-md-4">
           <div className="">
-            <div className="home card-body text-black">
+            <div className="home card-body text-center ">
               <h5 className="card-title" ><a className="nav-link active" aria-current="page" href="/conctacto" >¿Quieres contactarme?</a></h5>
               <p className="card-text" >Me podras escribir a mi correo...</p>
             </div>

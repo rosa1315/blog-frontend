@@ -39,9 +39,9 @@ function App() {
   return (
     <>
        {!ocultarNavbar.includes(location.pathname) && (
-      <nav id="navbar" className="car1 navbar navbar-dark">
+      <nav id="navbar" className="car1 navbar ">
         <div className="car1  container-fluid">
-          <a className="admin font navbar-brand" href="#">EduTech Rosa</a> 
+          <a className="car1 font navbar-brand">EduTech Rosa</a> 
           {location.pathname === '/admin' && (
           <form className="d-flex mt-3" role="search" onSubmit={handleBuscar}>
             <input

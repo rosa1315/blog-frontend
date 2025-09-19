@@ -12,8 +12,8 @@ function Contacto() {
   }, []);
 
   return (
-    <div className="logo container-fluid d-flex justify-content-center align-items-center">
-      <div className="card2 shadow ">
+    <div className="logo container-fluid d-flex justify-content-center align-items-center ">
+      <div className="card2 shadow">
         <h1 className="display-4">¿Quieres contactarme?</h1>
         <div className="card-body">
           <h5 className="card-title">¿Te gustaría trabajar conmigo?</h5>

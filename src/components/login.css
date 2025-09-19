@@ -1,17 +1,19 @@
+/*login*/
 .login-bg {
-  background: linear-gradient(to right,    #f7c0c5, #c6c6eb);
+  background: #0c2342;
   margin: -100px;
   padding: 0;
   overflow-x: hidden;
+  color: #FFFFFF ;
 }
 .login-card {
   width: 400px;
-  background-color: rgb(233, 223, 223);
+  background-color: #0d1f3a;
 }
 
 .btn-gradient {
   background: linear-gradient(to right, #221ff1, #00c6ff);
-  color: white;
+  color: #FFFFFF ;
   border: none;
 }
 
@@ -20,8 +22,9 @@
 }
 .login {
   width: 600px;
-  background-color: rgb(233, 223, 223);
+  background-color: #0d1f3a;
 }
+
 .card{
   width: 600px;
    height: 20px;
@@ -33,76 +36,116 @@
   color:burlywood;
 }
 .card1{
-  width: 800px;
+  width: 20%;
   color: dark;
-  background-color: rgb(204, 223, 223);
+  background-color: #0d1f3a;
   image-orientation: from-image;
   font-family: monospace;
  
 }
+/*panel*/
 .car1{
-  background: linear-gradient(to right,rgb(224, 145, 145), rgb(210, 173, 240));
+  background: #0a192f;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
- font-family: monospace ;
- 
+  font-family: monospace ;
+  color: #64ffda;
 }
+.nav-link:hover {
+  color: #64FFDA !important; 
+  transform: translateX(3px);
+}
+.navbar-brand, 
+#offcanvasDarkNavbarLabel a {
+  color: #64FFDA !important; 
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.nav-link {
+  color: #FFFFFF !important; 
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+.nav-link {
+  color: #FFFFFF !important; 
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+.offcanvas-header {
+  border-bottom: 1px solid #64FFDA;
+}
+.navbar-toggler {
+  border: 2px solid #64FFDA;
+  background-color: transparent;
+}
+.navbar-toggler-icon {
+  filter: invert(80%) sepia(100%) saturate(500%) hue-rotate(120deg);
+}
+
+/*sobre mi*/
 .card2{
-  width: 85%;
-  background-color:   rgb(169, 201, 201);
+  width: 95%;
+  background-color: #0d1f3a;
   font-family: monospace;
+  color: #FFFFFF ; 
 }
-.logo{
-  background: linear-gradient(to right,   #f7c0c5, #c6c6eb);
-  margin: -100px;
-  padding: 0;
-  min-height: 100vh;
-  padding-top: 15%;
-}
+
 .logincar{
   width: 70%;
-  background-color:   #f7c0c5, #c6c6eb;
+  background-color:   #0d1f3a;
   font-family: monospace;
 }
+/*crear login entrada*/
 .admin-panel {
-  background: linear-gradient(to right,  #f7c0c5, #c6c6eb);
-  min-height: 100vh; /* para que siempre ocupe toda la pantalla */
-  padding-top: 100px; /* para que no se solape con el navbar */
+  background: #0c2342;
+  min-height: 100vh; 
+  padding-top: 100px; 
   padding-bottom: 50px;
   margin: -100px;
 }
-.admin{
-  color: rgb(5, 5, 5);
-}
+/*eliminar*/
 .car-e{
   width: 70%;
-  background-color:   rgb(169, 201, 201);
+  background-color:   #0d1f3a;
   font-family: monospace;
+  margin: -100px;
+}
+.logo{
+  background: #0c2342;
+  margin: -100px;
+  padding: 0;
+  padding-top: 5%;
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 .car-d{
-  background: rgb(203, 231, 231);
+  background: #0d1f3a;
   margin: -100px;
   padding: 0;
   min-height: 100vh;
 }
+/*principal*/
 .home{
-  background: #f7c0c5 ;
-  color: black;
+  background: #091d36 ;
+  color: #FFFFFF ;
   margin: 1rem auto;
   padding: 1rem 1.5rem;
   max-width: 300px;
   border-radius: 20px;
+  
   box-shadow: 0 4px 10px rgb(0,0,0,0.1);
   transition: transfom 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
 .home:hover{
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgb(0,0,0,0.2);
+  box-shadow: 0 6px 15px #64ffda;
 
+}
+.admin{
+  color: #FFFFFF ;
 }
 .letra{
   font-family: monospace;
-  color: black;
+  color: #64ffda;
 }
