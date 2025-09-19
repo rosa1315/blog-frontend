@@ -33,10 +33,11 @@
 .navbar-dark {
   transition: top 0.3s ease-in-out;
   z-index: 1030; /* Asegura que esté encima */
-  color:burlywood;
+  color:rgb(122, 121, 120);
 }
+/*ver publicacion*/
 .card1{
-  width: 20%;
+  width: 60%;
   color: dark;
   background-color: #0d1f3a;
   image-orientation: from-image;
@@ -103,12 +104,12 @@
   padding-bottom: 50px;
   margin: -100px;
 }
-/*eliminar*/
+/*eliminar publicaciones*/
 .car-e{
-  width: 70%;
+  width: 95%;
   background-color:   #0d1f3a;
   font-family: monospace;
-  margin: -100px;
+ 
 }
 .logo{
   background: #0c2342;
@@ -117,6 +118,7 @@
   padding-top: 5%;
   overflow-x: hidden;
   min-height: 100vh;
+  color: #FFFFFF;
 }
 .car-d{
   background: #0d1f3a;

@@ -101,7 +101,7 @@ function App() {
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/admin" element={<MisEntradas busqueda={busqueda} />} />
       </Routes>
-    </div>
+    </div> 
      
    </>
   );
